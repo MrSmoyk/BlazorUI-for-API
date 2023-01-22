@@ -1,0 +1,159 @@
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\appsettings.json
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.staticwebassets.runtime.json
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.exe
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.deps.json
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.runtimeconfig.json
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.pdb
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.AssemblyInfo.cs
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.RazorAssemblyInfo.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.RazorAssemblyInfo.cs
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\bundle\UI.Blazor.styles.css
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\projectbundle\UI.Blazor.bundle.scp.css
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\refint\UI.Blazor.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.pdb
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.genruntimeconfig.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\ref\UI.Blazor.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Domain.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Domain.pdb
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.CopyComplete
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\appsettings.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.staticwebassets.runtime.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.exe
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.deps.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.runtimeconfig.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Domain.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Domain.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.AssemblyInfo.cs
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.RazorAssemblyInfo.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.RazorAssemblyInfo.cs
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\bundle\UI.Blazor.styles.css
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\projectbundle\UI.Blazor.bundle.scp.css
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.CopyComplete
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\refint\UI.Blazor.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.genruntimeconfig.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\ref\UI.Blazor.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.UI.Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.build.UI.Blazor.props
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UI.Blazor.props
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UI.Blazor.props
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\appsettings.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.staticwebassets.runtime.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.exe
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.deps.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.runtimeconfig.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Domain.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Domain.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.AssemblyInfo.cs
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.RazorAssemblyInfo.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.RazorAssemblyInfo.cs
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.UI.Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.build.UI.Blazor.props
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UI.Blazor.props
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UI.Blazor.props
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\bundle\UI.Blazor.styles.css
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\projectbundle\UI.Blazor.bundle.scp.css
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.CopyComplete
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\refint\UI.Blazor.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.genruntimeconfig.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\UI.Blazor\obj\Debug\net6.0\ref\UI.Blazor.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\appsettings.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.staticwebassets.runtime.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.exe
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.deps.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.runtimeconfig.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Blazor.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Domain.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Domain.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\bin\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.AssemblyInfo.cs
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.RazorAssemblyInfo.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.RazorAssemblyInfo.cs
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.UI.Blazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.build.UI.Blazor.props
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UI.Blazor.props
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UI.Blazor.props
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\bundle\UI.Blazor.styles.css
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\scopedcss\projectbundle\UI.Blazor.bundle.scp.css
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.csproj.CopyComplete
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\refint\UI.Blazor.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\UI.Blazor.genruntimeconfig.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\UI.Blazor\obj\Debug\net6.0\ref\UI.Blazor.dll

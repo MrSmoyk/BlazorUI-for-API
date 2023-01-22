@@ -1,0 +1,32 @@
+﻿@using UI.Domain.DTOs.PeriodDTOs
+
+<div>
+    <input type="date" @bind-value="SelectedDate.StartDate" />
+    <button type="button" class="btn" @onclick="@RemoveDay">Previous</button>
+    <button type="button" class="btn" @onclick="@AddDay">Next</button>
+</div>
+
+@code {
+    [Parameter]
+    public DayMonthDTO SelectedDate { get; set; }
+
+    [Parameter]
+    public EventCallback OnUpdateCallback { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await OnUpdateCallback.InvokeAsync();
+    }
+
+    private async Task AddDay()
+    {
+        SelectedDate.AddDay();
+        await OnUpdateCallback.InvokeAsync();
+    }
+
+    private async Task RemoveDay()
+    {
+        SelectedDate.RemoveDay();
+        await OnUpdateCallback.InvokeAsync();
+    }
+}

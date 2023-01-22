@@ -1,0 +1,71 @@
+﻿@page "/PeriodReports"
+@using UI.Domain.DTOs
+@using UI.Domain.DTOs.OperationDTOs
+@using UI.Domain.DTOs.PeriodDTOs
+@using UI.Service.Interfaces
+@using UI.Blazor.Components.OperationComponents
+@using UI.Blazor.Components.PeriodComponents
+
+@inject IPeriodReportsService PeriodReportsService
+
+
+<h1>Period Report</h1>
+
+<div>
+    <select @bind="currentType">
+        <option value="Daily">Daily</option>
+        <option value="Monthly">Monthly</option>
+    </select>
+</div>
+
+@if (currentType is PeriodTypes.Daily)
+{
+    <DailyTotalComponent SelectedDate="selectedPeriod" OnUpdateCallback="@LoadDataAsync" />
+}
+else
+{
+    <MonthlyTotalComponent SelectedPeriod="selectedPeriod" OnUpdateCallback="LoadDataAsync" />
+}
+
+<div class="col-3">
+    <label>Total Income: @currentPeriod.PeriodIncome</label>
+</div>
+<div class="col-3">
+    <label>Total Expenses: @currentPeriod.PeriodExpenses</label>
+</div>
+<div class="col-3">
+    <label>Balance: @currentPeriod.PeriodBalance</label>
+</div>
+
+
+<OperationsComponent operations="currentPeriod.Operations" OnUpdateCallback="LoadDataAsync" />
+
+@code {
+    private PeriodDTO currentPeriod = new PeriodDTO();
+    private PeriodTypes currentType = PeriodTypes.Daily;
+
+
+    private DayMonthDTO selectedPeriod = new DayMonthDTO
+        {
+            EndDate = DateTime.Now,
+            StartDate = DateTime.Now.AddMonths(-1)
+        };
+    private List<OperationDTO> operations = new List<OperationDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDataAsync();
+    }
+
+    private async Task LoadDataAsync()
+    {
+        if (currentType is PeriodTypes.Daily)
+        {
+            currentPeriod = await PeriodReportsService.GetTotalForDateAsync(selectedPeriod);
+        }
+        if (currentType is PeriodTypes.Monthly)
+        {
+            currentPeriod = await PeriodReportsService.GetTotalForPeriodAsync(selectedPeriod);
+        }
+    }
+}

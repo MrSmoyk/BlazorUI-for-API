@@ -1,0 +1,48 @@
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\MrSmoyk\Documents\Task13\API\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\API\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\API\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\API\Domain\obj\Debug\net6.0\ref\Domain.dll

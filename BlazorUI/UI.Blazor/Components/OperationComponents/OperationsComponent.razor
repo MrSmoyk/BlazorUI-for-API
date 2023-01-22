@@ -1,0 +1,194 @@
+﻿@using UI.Domain.DTOs.OperationDTOs
+@using UI.Domain.DTOs.OperationTypeDTOs
+@using UI.Service.Interfaces
+@inject IBaseService<OperationTypeDTO, OperationTypeCreateUpdateDTO> OperationTypeService
+@inject IBaseService<OperationDTO, OperationCreateUpdateDTO> OperationService
+
+@if (CreateDialogOpen)
+{
+    <OperationsCreateUpdateDialogComponent Title="Create" Operation="@createOperation" OperationTypes="OperationTypes" OnClose="@OnCreateDialogClose" />
+}
+
+@if (UpdateDialogOpen)
+{
+    <OperationsCreateUpdateDialogComponent Title="Update" Operation="@updateOperation" OperationTypes="OperationTypes" OnClose="@OnUpdateDialogClose" />
+}
+
+@if (DeleteDialogOpen)
+{
+    <DeleteDialogComponent Title="Delete" OnClose="@OnDeleteDialogClose">
+        Do you want to delete this operation?
+    </DeleteDialogComponent>
+}
+
+@if (DeleteAllDialogOpen)
+{
+    <DeleteDialogComponent Title="Delete" OnClose="@OnDeleteAllDialogClose">
+        Do you want to delete All Operations?
+    </DeleteDialogComponent>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Operation Name</th>
+            <th>Operation Type Name</th>
+            <th>Operation Type</th>
+            <th>Amount</th>
+            <th>Date</th>
+            <th>
+                <button type="button" class="btn" @onclick="() => OpenCreateDialog()">Create</button>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var operation in operations)
+        {
+            var color = "color: red";
+            var amount = $"-{operation.Amount}";
+            if (operation.Type.IsIncome)
+            {
+                color = "color: green";
+                amount = $"{operation.Amount}";
+            }
+
+            <tr style=@color>
+                <td>@operation.Name</td>
+                <td>@operation.Type.Name </td>
+                @if (operation.Type.IsIncome)
+                {
+                    <td>Income</td>
+                }
+                else
+                {
+                    <td>Expense</td>
+                }
+                <td>@amount</td>
+                <td>@operation.Created.ToShortDateString()</td>
+                <td>
+                    <button type="button" class="btn" @onclick="() => OpenUpdateDialog(operation)">Edit</button>
+                    <button type="button" class="btn" @onclick="() => OpenDeleteDialog(operation)">Delete</button>
+                </td>
+            </tr>
+        }
+        <tr>
+            <td>
+                <button type="button" class="btn" @onclick="() => OpenDeleteAllDialog()">Delete All</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+@code {
+    [Parameter]
+    public List<OperationDTO> operations { get; set; } = new List<OperationDTO>();
+
+    [Parameter]
+    public EventCallback OnUpdateCallback { get; set; }
+
+    private List<OperationTypeDTO> OperationTypes = new List<OperationTypeDTO>();
+    private OperationDTO currentOperation;
+    private List<OperationCreateUpdateDTO> createOperations;
+    private OperationCreateUpdateDTO createOperation;
+    private OperationCreateUpdateDTO updateOperation;
+
+    protected override async Task OnInitializedAsync()
+    {
+        OperationTypes = await OperationTypeService.GetAllAsync();
+        await base.OnInitializedAsync();
+    }
+
+    public bool DeleteDialogOpen { get; set; }
+
+    private void OpenDeleteDialog(OperationDTO operation)
+    {
+        DeleteDialogOpen = true;
+        currentOperation = operation;
+        StateHasChanged();
+    }
+
+    private async Task OnDeleteDialogClose(bool accepted)
+    {
+        DeleteDialogOpen = false;
+
+        if (accepted)
+        {
+            await OperationService.DeleteAsync(currentOperation.Id);
+        }
+        StateHasChanged();
+        await OnUpdateCallback.InvokeAsync();
+    }
+
+    public bool DeleteAllDialogOpen { get; set; }
+
+    private void OpenDeleteAllDialog()
+    {
+        DeleteAllDialogOpen = true;
+        StateHasChanged();
+    }
+
+    private async Task OnDeleteAllDialogClose(bool accepted)
+    {
+        DeleteAllDialogOpen = false;
+
+        if (accepted)
+        {
+            await OperationService.DeleteAllAsync();
+        }
+        StateHasChanged();
+        await OnUpdateCallback.InvokeAsync();
+    }
+
+
+    public bool CreateDialogOpen { get; set; }
+
+    private void OpenCreateDialog()
+    {
+        createOperation = new OperationCreateUpdateDTO();
+        CreateDialogOpen = true;
+        StateHasChanged();
+    }
+
+    private async Task OnCreateDialogClose(bool accepted)
+    {
+        CreateDialogOpen = false;
+        createOperations = new List<OperationCreateUpdateDTO>();
+        if (accepted)
+        {
+            createOperations.Add(createOperation);
+            await OperationService.CreateAsync(createOperations);
+        }
+        StateHasChanged();
+        await OnUpdateCallback.InvokeAsync();
+    }
+
+
+    public bool UpdateDialogOpen { get; set; }
+
+    private void OpenUpdateDialog(OperationDTO operation)
+    {
+        currentOperation = operation;
+        updateOperation = new OperationCreateUpdateDTO()
+            {
+                Amount = operation.Amount,
+                Created = operation.Created,
+                Name = operation.Name,
+                TypeName = operation.Type.Name,
+                Description = operation.Description
+            };
+        UpdateDialogOpen = true;
+        StateHasChanged();
+    }
+
+    private async Task OnUpdateDialogClose(bool accepted)
+    {
+        UpdateDialogOpen = false;
+        if (accepted)
+        {
+            await OperationService.UpdateAsync(currentOperation.Id, updateOperation);
+        }
+        StateHasChanged();
+        await OnUpdateCallback.InvokeAsync();
+    }
+}

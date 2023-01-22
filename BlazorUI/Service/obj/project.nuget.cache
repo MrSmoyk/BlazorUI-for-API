@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dxl9II+lSckvrVmOhgq6I60CjQRZyoqZpO+jJjhQWtQfhfehfhcO4luJdSzhy3uwl6VHqXAA+3PJdS1MJb1h9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MrSmoyk\\source\\repos\\MyGit\\BlazorUI-for-API\\BlazorUI\\Service\\UI.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MrSmoyk\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\MrSmoyk\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\MrSmoyk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\MrSmoyk\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\MrSmoyk\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\MrSmoyk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

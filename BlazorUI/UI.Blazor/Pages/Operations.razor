@@ -1,0 +1,24 @@
+﻿@page "/operations"
+@using Domain.DTOs.OperationDTOs
+@using UI.Blazor.Components.OperationComponents
+@using Service.Interfaces
+
+@inject IBaseService<OperationDTO, OperationCreateUpdateDTO> OperationService
+
+<h1>Operations</h1>
+
+<OperationsComponent operations="operations" OnUpdateCallback="LoadDataAsync" />
+
+@code {
+    private List<OperationDTO> operations = new List<OperationDTO>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDataAsync();
+    }
+
+    private async Task LoadDataAsync()
+    {
+        operations = await OperationService.GetAllAsync();
+    }
+}

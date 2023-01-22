@@ -1,0 +1,118 @@
+﻿@using System.ComponentModel.DataAnnotations;
+@using UI.Domain.DTOs.OperationTypeDTOs
+
+<div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);"
+     aria-modal="true" role="dialog">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">@Title</h4>
+                <button type="button" class="close" @onclick="@ModalCancel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm EditContext="editContext">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+                    <div class="form-group row">
+                        <label for="Name" class="col-sm-4 col-form-label">Name</label>
+                        <div class="col-sm-8">
+                            <InputText @bind-Value=OperationType.Name class="form-control" id="Name" />
+                            @if (Title == "Create" || Title == "Update")
+                            {
+                                UniqueChecker();
+
+                                if (OperationType.IsNameRepeat)
+                                {
+                                    <ValidationMessage For="()=> OperationType.IsNameRepeat" />
+                                }
+                            }
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group row">
+                        <label for="Description" class="col-sm-4 col-form-label">Description</label>
+                        <div class="col-sm-8">
+                            <InputText @bind-Value=OperationType.Description class="form-control" id="Description" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group row">
+                        <label for="IsIncome" class="col-sm-4 col-form-label">Type</label>
+                        <div class="col-sm-8">
+                            <select onchange="@OnSelectionChanged" class="form-control" id="IsIncome">
+                                <option value="True">Income</option>
+                                <option value="False">Expense</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="modal-footer">
+                        <button type="submit" onclick="@ValidatingModel" class="btn btn-primary" data-dismiss="modal">OK</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public OperationTypeCreateUpdateDTO OperationType { get; set; }
+
+    [Parameter]
+    public List<OperationTypeDTO> OperationTypesToCheck { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> OnClose { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+
+    private EditContext? editContext;
+
+    protected override void OnInitialized()
+    {
+        editContext = new(OperationType);
+        base.OnInitialized();
+    }
+
+    private void OnSelectionChanged(ChangeEventArgs args)
+    {
+        if (bool.TryParse(args.Value.ToString(), out var value))
+        {
+            OperationType.IsIncome = value;
+        }
+    }
+
+    private void ValidatingModel()
+    {
+        if (editContext.Validate())
+        {
+            ModalOk();
+        }
+    }
+
+    private Task ModalCancel()
+    {
+        return OnClose.InvokeAsync(false);
+    }
+
+    private Task ModalOk()
+    {
+        return OnClose.InvokeAsync(true);
+    }
+
+    private void UniqueChecker()
+    {
+        var thisToRemove = OperationTypesToCheck.Find(x => x.Name == OperationType.Name);
+
+        if (thisToRemove == null)
+        {
+            OperationType.IsNameRepeat = false;
+            return;
+        }
+        OperationType.IsNameRepeat = true;
+
+    }
+}

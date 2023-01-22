@@ -1,0 +1,111 @@
+﻿@using System.ComponentModel.DataAnnotations;
+@using UI.Domain.DTOs.OperationDTOs
+@using UI.Domain.DTOs.OperationTypeDTOs
+@using UI.Service.Interfaces
+@inject IBaseService<OperationTypeDTO, OperationTypeCreateUpdateDTO> OperationTypeService
+
+
+<div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);"
+     aria-modal="true" role="dialog">
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">@Title</h4>
+                <button type="button" class="close" @onclick="@ModalCancel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <EditForm EditContext="editContext">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+                    <div class="form-group row">
+                        <label for="Name" class="col-sm-4 col-form-label">Name</label>
+                        <div class="col-sm-8">
+                            <InputText @bind-Value=@Operation.Name class="form-control" id="Name" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group row">
+                        <label for="Type" class="col-sm-4 col-form-label">Operation Type</label>
+                        <div class="col-sm-8">
+                            <InputSelect @bind-Value="Operation.TypeName" class="form-control" id="TypeName">
+                                <option selected>--Select Operation Type--</option>
+                                @foreach (var operationType in OperationTypes)
+                                {
+                                    <option value="@operationType.Name">@operationType.Name</option>
+                                }
+                            </InputSelect>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group row">
+                        <label for="Description" class="col-sm-4 col-form-label">Description</label>
+                        <div class="col-sm-8">
+                            <InputTextArea @bind-Value="Operation.Description" class="form-control" id="Description">
+                            </InputTextArea>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group row">
+                        <label for="Amount" class="col-sm-4 col-form-label">Amount</label>
+                        <div class="col-sm-8">
+                            <InputNumber @bind-Value="Operation.Amount" class="form-control" id="Amount" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="form-group row">
+                        <label for="Date" class="col-sm-4 col-form-label">Date</label>
+                        <div class="col-sm-8">
+                            <InputDate @bind-Value="Operation.Created" class="form-control" id="Created" />
+                        </div>
+                    </div>
+                    <br />
+                    <div class="modal-footer">
+                        <button type="button" onclick="@ValidatingModel" class="btn btn-primary" data-dismiss="modal">OK</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public OperationCreateUpdateDTO Operation { get; set; }
+
+    [Parameter]
+    public List<OperationTypeDTO> OperationTypes { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> OnClose { get; set; }
+
+    private EditContext? editContext;
+
+    protected override void OnInitialized()
+    {
+        editContext = new(Operation);
+        base.OnInitialized();
+    }
+
+
+    private void ValidatingModel()
+    {
+        if (editContext.Validate())
+        {
+            ModalOk();
+        }
+    }
+
+    private Task ModalCancel()
+    {
+        return OnClose.InvokeAsync(false);
+    }
+
+    private Task ModalOk()
+    {
+        return OnClose.InvokeAsync(true);
+    }
+}

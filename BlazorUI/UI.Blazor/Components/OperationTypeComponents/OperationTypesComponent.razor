@@ -1,0 +1,161 @@
+﻿@using UI.Domain.DTOs.OperationTypeDTOs
+@using UI.Service.Interfaces
+@inject IBaseService<OperationTypeDTO, OperationTypeCreateUpdateDTO> OperationTypeService
+
+@if (CreateDialogOpen)
+{
+    <OperationTypesCreateUpdateDialogComponent Title="Create" OperationTypesToCheck="@operationTypes" OperationType="@createType" OnClose="@OnCreateDialogCloseAsync" />
+}
+
+@if (UpdateDialogOpen)
+{
+    <OperationTypesCreateUpdateDialogComponent Title="Update" OperationTypesToCheck="@operationTypesToCheck" OperationType="@updateType" OnClose="@OnUpdateDialogCloseAsync" />
+}
+
+@if (DeleteDialogOpen)
+{
+    <DeleteDialogComponent Title="Delete" OnClose="@OnDeleteDialogCloseAsync">
+        Delete @currentType.Name ?
+    </DeleteDialogComponent>
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Operation Type Name</th>
+            <th>Income/Expense</th>
+            <th>Description</th>
+            <th><button type="button" class="btn" @onclick="() => OpenCreateDialog()">Create</button></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var operationType in operationTypes)
+        {
+            <tr>
+                <td>@operationType.Name</td>
+                @if (operationType.IsIncome)
+                {
+                    <td>Income</td>
+                }
+                else
+                {
+                    <td>Expense</td>
+                }
+                <td>@operationType.Description</td>
+                <td>
+                    <button type="button" class="btn" @onclick="() => OpenUpdateDialog(operationType)">Edit</button>
+                    <button type="button" class="btn" @onclick="() => OpenDeleteDialog(operationType)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    [Parameter]
+    public EventCallback OnUpdateCallback { get; set; }
+
+    [Parameter]
+    public List<OperationTypeDTO> operationTypes { get; set; }
+
+    private OperationTypeDTO currentType;
+    private List<OperationTypeCreateUpdateDTO> createTypes;
+    private List<OperationTypeDTO> operationTypesToCheck;
+    private OperationTypeCreateUpdateDTO createType;
+    private OperationTypeCreateUpdateDTO updateType;
+
+    protected override async Task OnInitializedAsync()
+    {
+        operationTypes = new List<OperationTypeDTO>();
+        currentType = new OperationTypeDTO();
+        await LoadDataAsync();
+        await base.OnInitializedAsync();
+    }
+
+    private async Task LoadDataAsync()
+    {
+        operationTypes = await OperationTypeService.GetAllAsync();
+    }
+
+    private bool CreateDialogOpen { get; set; }
+
+    private void OpenCreateDialog()
+    {
+        createType = new OperationTypeCreateUpdateDTO();
+        CreateDialogOpen = true;
+        StateHasChanged();
+    }
+
+    private async Task OnCreateDialogCloseAsync(bool accepted)
+    {
+        CreateDialogOpen = false;
+        createTypes = new List<OperationTypeCreateUpdateDTO>();
+        if (accepted)
+        {
+            createTypes.Add(createType);
+            await OperationTypeService.CreateAsync(createTypes);
+        }
+        StateHasChanged();
+        await OnUpdateCallback.InvokeAsync();
+        await LoadDataAsync();
+    }
+
+    private bool UpdateDialogOpen { get; set; }
+
+    private void OpenUpdateDialog(OperationTypeDTO operationType)
+    {
+        currentType = operationType;
+        var thisToRemove = operationTypes.Find(x => x.Name == currentType.Name);
+        if (thisToRemove != null)
+        {
+            operationTypesToCheck = new List<OperationTypeDTO>();
+            foreach (var operation in operationTypes)
+            {
+                operationTypesToCheck.Add(operation);
+            }
+            operationTypesToCheck.Remove(thisToRemove);
+        }
+        updateType = new OperationTypeCreateUpdateDTO()
+            {
+                Name = currentType.Name,
+                Description = currentType.Description,
+                IsIncome = currentType.IsIncome
+            };
+        UpdateDialogOpen = true;
+        StateHasChanged();
+    }
+
+    private async Task OnUpdateDialogCloseAsync(bool accepted)
+    {
+        UpdateDialogOpen = false;
+        if (accepted)
+        {
+            await OperationTypeService.UpdateAsync(currentType.Id, updateType);
+        }
+        StateHasChanged();
+        await OnUpdateCallback.InvokeAsync();
+        await LoadDataAsync();
+    }
+
+    private bool DeleteDialogOpen { get; set; }
+
+    private void OpenDeleteDialog(OperationTypeDTO operationType)
+    {
+        DeleteDialogOpen = true;
+        currentType = operationType;
+        StateHasChanged();
+    }
+
+    private async Task OnDeleteDialogCloseAsync(bool accepted)
+    {
+        DeleteDialogOpen = false;
+        if (accepted)
+        {
+            await OperationTypeService.DeleteAsync(currentType.Id);
+        }
+        StateHasChanged();
+        await OnUpdateCallback.InvokeAsync();
+        await LoadDataAsync();
+    }
+}

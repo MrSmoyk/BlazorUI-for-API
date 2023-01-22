@@ -1,0 +1,60 @@
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Service.deps.json
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Domain.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Domain.pdb
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.AssemblyInfo.cs
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.CopyComplete
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\refint\UI.Service.dll
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Documents\Task13\BlazorUI\Service\obj\Debug\net6.0\ref\UI.Service.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Service.deps.json
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Domain.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\bin\Debug\net6.0\UI.Domain.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.AssemblyInfo.cs
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.CopyComplete
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\refint\UI.Service.dll
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Source\Repos\task132\Task13\BlazorUI\Service\obj\Debug\net6.0\ref\UI.Service.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\bin\Debug\net6.0\UI.Service.deps.json
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\bin\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\bin\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\bin\Debug\net6.0\UI.Domain.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\bin\Debug\net6.0\UI.Domain.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\UI.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\UI.Service.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\UI.Service.AssemblyInfo.cs
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.CopyComplete
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\refint\UI.Service.dll
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\Desktop\To githab\BlazorUI\BlazorUI\Service\obj\Debug\net6.0\ref\UI.Service.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\bin\Debug\net6.0\UI.Service.deps.json
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\bin\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\bin\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\bin\Debug\net6.0\UI.Domain.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\bin\Debug\net6.0\UI.Domain.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.AssemblyReference.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\UI.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\UI.Service.AssemblyInfoInputs.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\UI.Service.AssemblyInfo.cs
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.CoreCompileInputs.cache
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\UI.Service.csproj.CopyComplete
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\UI.Service.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\refint\UI.Service.dll
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\UI.Service.pdb
+C:\Users\MrSmoyk\source\repos\MyGit\BlazorUI-for-API\BlazorUI\Service\obj\Debug\net6.0\ref\UI.Service.dll
